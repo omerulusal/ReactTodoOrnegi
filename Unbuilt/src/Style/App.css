@@ -1,0 +1,103 @@
+body {
+  background-color: #a7744a;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23140c22' fill-opacity='0.63'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #a7744a;
+}
+
+.todoForm {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+.todoForm .tus {
+  text-transform: uppercase;
+  background-color: #D9CCC1;
+  border-radius: 3px;
+  padding: 8px 30px;
+  margin: 0px 10px;
+  padding-bottom: 10px;
+  opacity: 0.7;
+}
+.todoForm .tus:hover {
+  background-color: #D9CCC1;
+}
+
+.todoRow {
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 80%;
+}
+
+.todoInputEdit {
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+}
+
+.okX {
+  background-color: rgba(217, 204, 193, 0.5098039216);
+  opacity: 0.4;
+  text-align: center;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.xcx {
+  text-align: center;
+  padding: 0px 270px;
+}
+
+.todo-icons {
+  display: inline-block;
+  margin-left: 20px;
+  text-align: end;
+  font-size: 2rem;
+}
+.todo-icons .todo-icon {
+  margin-right: 20px;
+  text-align: end;
+}
+
+.giris {
+  background-color: #D9CCC1;
+  border: none;
+  display: inline;
+  width: 50%;
+  opacity: 0.8;
+  padding-bottom: 13px;
+  color: white;
+}
+
+.giris:focus {
+  background-color: rgba(217, 204, 193, 0.5098039216);
+  opacity: 0.5;
+  color: white;
+  text-transform: uppercase;
+}/*# sourceMappingURL=App.css.map */
